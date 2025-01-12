@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIT - Massachusetts Institute of Technology</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.jpg" alt="MIT Logo" width="40" height="40">
+                <span>MIT</span>
+            </div>
+            <nav>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Campus Life</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Mind and Hand</h1>
+                <p>MIT is a world-class educational institution where teaching and research — with relevance to the practical world as a guiding principle — continue to be its primary purpose.</p>
+                <a href="#" class="cta-button">Explore MIT</a>
+            </div>
+        </section>
+
+        <section class="key-sections">
+            <div class="container">
+                <div class="section">
+                    <h2>Academic Programs</h2>
+                    <p>Explore MIT's five schools and one college, offering a wide range of programs in science, engineering, humanities, arts, and social sciences.</p>
+                    <a href="#" class="learn-more">Learn More &rarr;</a>
+                </div>
+                <div class="section">
+                    <h2>Research</h2>
+                    <p>Discover groundbreaking research initiatives across various disciplines, addressing global challenges and pushing the boundaries of knowledge.</p>
+                    <a href="#" class="learn-more">Learn More &rarr;</a>
+                </div>
+                <div class="section">
+                    <h2>Campus News</h2>
+                    <p>Stay updated with the latest news, events, and innovations happening across MIT's vibrant campus community.</p>
+                    <a href="#" class="learn-more">Learn More &rarr;</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h3>Contact MIT</h3>
+                    <p>77 Massachusetts Avenue</p>
+                    <p>Cambridge, MA 02139-4307</p>
+                    <p>617-253-1000</p>
+                </div>
+                <div class="quick-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Admissions</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Giving to MIT</a></li>
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <h3>Connect with Us</h3>
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Massachusetts Institute of Technology</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
